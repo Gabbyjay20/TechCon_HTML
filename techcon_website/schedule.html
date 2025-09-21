@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 | Home</title>
+    <title>TechCon 2024 | Schedule</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -80,79 +80,57 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-12">
-        <!-- About Section -->
-        <section id="about" class="mb-16" data-aos="fade-up">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
-                    <h2 class="text-3xl font-bold mb-6 text-gray-800">About TechCon 2024</h2>
-                    <p class="text-lg text-gray-600 mb-6">
-                        TechCon 2024 is the premier technology conference bringing together industry leaders,
-                        innovators, and enthusiasts from around the globe.
-                        This year's event will feature cutting-edge discussions on AI, blockchain, quantum computing,
-                        and more.
-                    </p>
-                    <p class="text-lg text-gray-600 mb-6">
-                        Join us for three days of inspiring keynotes, hands-on workshops, and unparalleled networking
-                        opportunities in the heart of Silicon Valley.
-                    </p>
-                    <a href="about.html"
-                        class="inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Read
-                        More</a>
-                </div>
-                <div class="md:w-1/2">
-                    <div class="video-container rounded-xl shadow-2xl overflow-hidden">
-                        <video controls poster="http://static.photos/technology/1024x576/1">
-                            <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
-                                type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-2">Promotional video for TechCon 2024 (subtitles available)</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Highlights Section -->
-        <section class="mb-16" data-aos="fade-up">
-            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Conference Highlights</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
-                    <div class="text-blue-600 mb-4">
-                        <i data-feather="users" class="w-10 h-10"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3 text-gray-800">World-Class Speakers</h3>
-                    <p class="text-gray-600">Learn from industry pioneers and thought leaders shaping the future of
-                        technology.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
-                    <div class="text-blue-600 mb-4">
-                        <i data-feather="code" class="w-10 h-10"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Hands-On Workshops</h3>
-                    <p class="text-gray-600">Get practical experience with the latest tools and technologies through
-                        interactive sessions.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
-                    <div class="text-blue-600 mb-4">
-                        <i data-feather="globe" class="w-10 h-10"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Global Networking</h3>
-                    <p class="text-gray-600">Connect with professionals, entrepreneurs, and innovators from around the
-                        world.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-xl p-8 md:p-12 text-center"
-            data-aos="fade-up">
-            <h2 class="text-2xl md:text-3xl font-bold mb-4">Ready to Join TechCon 2024?</h2>
-            <p class="text-lg mb-6 max-w-2xl mx-auto">Don't miss out on the most exciting tech event of the year. Early
-                bird registration is now open!</p>
-            <a href="register.html"
-                class="inline-block px-8 py-3 bg-white text-blue-600 rounded-full font-semibold hover:bg-gray-100 transition">Register
-                Today</a>
-        </section>
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Conference Schedule</h2>
+        <table class="w-full bg-white shadow-md rounded-lg overflow-hidden">
+            <caption class="text-lg font-semibold mb-4">Detailed Schedule of Events for TechCon 2024</caption>
+            <thead class="bg-gray-50">
+                <tr>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Time</th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Event
+                    </th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Speaker
+                    </th>
+                    <th scope="col"
+                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">9:00 AM - 10:00 AM</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Opening Keynote: The Future of AI</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Dr. Jane Doe</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Main Hall</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">10:15 AM - 11:15 AM</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Blockchain Revolution</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">John Smith</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Room A</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">11:30 AM - 12:30 PM</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Quantum Computing Workshop</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Mary Johnson</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Lab 1</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1:30 PM - 2:30 PM</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Cybersecurity in the Modern Era</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Alex Chen</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Room B</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3:00 PM - 4:00 PM</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Closing Panel: Tech Ethics</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Panel Discussion</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Main Hall</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <!-- Footer -->
