@@ -4,139 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 | Schedule</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video-container iframe,
-        .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>Schedule for TechCon 2024</title>
 </head>
 
-<body class="bg-gray-50">
+<body>
     <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white shadow-lg">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="flex items-center mb-4 md:mb-0">
-                    <i data-feather="cpu" class="mr-2 w-8 h-8"></i>
-                    <h1 class="text-2xl md:text-3xl font-bold">Schedule for TechCon 2024</h1>
-                </div>
-                <nav class="flex flex-wrap justify-center md:justify-end">
-                    <a href="index.html"
-                        class="mx-2 px-3 py-2 rounded-md text-sm font-medium bg-blue-700 text-white">Home</a>
-                    <a href="about.html"
-                        class="mx-2 px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 hover:text-white transition">About</a>
-                    <a href="register.html"
-                        class="mx-2 px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 hover:text-white transition">Register</a>
-                    <a href="contact.html"
-                        class="mx-2 px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 hover:text-white transition">Contact</a>
-                </nav>
-            </div>
-        </div>
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-6 py-12">
-        <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Conference Schedule</h2>
-        <table class="w-full bg-white shadow-md rounded-lg overflow-hidden">
-            <caption class="text-lg font-semibold mb-4">Detailed Schedule of Events for TechCon 2024</caption>
-            <thead class="bg-gray-50">
+    <main>
+        <table>
+            <caption>Detailed Schedule of Events for TechCon 2024</caption>
+            <thead>
                 <tr>
-                    <th scope="col"
-                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Time</th>
-                    <th scope="col"
-                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Session
-                    </th>
-                    <th scope="col"
-                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Speaker
-                    </th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Speaker</th>
                 </tr>
             </thead>
-            <tbody class="bg-white divide-y divide-gray-200">
+            <tbody>
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">9:00 AM - 10:00 AM</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Opening Keynote: The Future of AI</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Dr. Jane Doe</td>
+                    <td>Day 1 - 9:00 AM</td>
+                    <td>Opening Keynote: The Future of AI</td>
+                    <td>Dr. Jane Doe</td>
                 </tr>
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">10:15 AM - 11:15 AM</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Blockchain Revolution</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">John Smith</td>
+                    <td>Day 1 - 10:30 AM</td>
+                    <td>Workshop: Building Scalable Web Apps</td>
+                    <td>John Smith</td>
                 </tr>
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">11:30 AM - 12:30 PM</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Quantum Computing Workshop</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Mary Johnson</td>
+                    <td>Day 1 - 2:00 PM</td>
+                    <td>Panel: Cybersecurity Trends</td>
+                    <td>Mary Johnson, Alex Lee, Sam Taylor</td>
                 </tr>
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1:30 PM - 2:30 PM</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Cybersecurity in the Modern Era</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Alex Chen</td>
+                    <td>Day 2 - 9:00 AM</td>
+                    <td>Keynote: Blockchain Innovations</td>
+                    <td>Dr. Emily Chen</td>
                 </tr>
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3:00 PM - 4:00 PM</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Closing Panel: Tech Ethics</td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Panel Discussion</td>
+                    <td>Day 2 - 11:00 AM</td>
+                    <td>Session: Machine Learning Basics</td>
+                    <td>Robert Kim</td>
+                </tr>
+                <tr>
+                    <td>Day 2 - 3:00 PM</td>
+                    <td>Workshop: DevOps Best Practices</td>
+                    <td>Lisa Wong</td>
+                </tr>
+                <tr>
+                    <td>Day 3 - 9:00 AM</td>
+                    <td>Closing Keynote: Tech Ethics</td>
+                    <td>Dr. Michael Brown</td>
+                </tr>
+                <tr>
+                    <td>Day 3 - 10:30 AM</td>
+                    <td>Networking Session</td>
+                    <td>All Attendees</td>
                 </tr>
             </tbody>
         </table>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <div class="flex items-center">
-                        <i data-feather="cpu" class="mr-2 w-6 h-6"></i>
-                        <span class="text-xl font-semibold">TechCon 2024</span>
-                    </div>
-                    <p class="text-sm text-gray-400 mt-2">The future of technology starts here.</p>
-                </div>
-                <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 mt-6 pt-6 text-sm text-gray-400 text-center">
-                <p>copyright © 2024 TechCon. All rights reserved.</p>
-            </div>
-        </div>
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
     </footer>
-
-    <script>
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true
-        });
-        feather.replace();
-    </script>
 </body>
 
 </html>
